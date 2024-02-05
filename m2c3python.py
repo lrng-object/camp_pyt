@@ -26,8 +26,9 @@ names_list = names.split(',')
 print(names_list)
 
 #7)
-first_word = some_string[ : some_string.index(" ")].upper()
-new_string =  first_word + some_string[some_string.index(" ") : ]
+index_rest = some_string.index(" ")
+first_word = some_string[ : index_rest].upper()
+new_string =  first_word + some_string[index_rest : ]
 print(new_string)
 
 #8)
