@@ -40,7 +40,7 @@ print(some_list)
 some_list.sort()
 print(some_list)
 
-some_list.sort(key = str.capitalize)
+some_list.sort(key = str.upper)
 print(some_list)
 
 #9)
